@@ -5,8 +5,10 @@ public class Moving : MonoBehaviour
 {
     public const float SprintSpeed = 4;
 
-    public Animator animator;
-    public SpriteRenderer sprite;
+    [SerializeField]
+    private Animator animator;
+    [SerializeField]
+    private SpriteRenderer sprite;
 
     private float speed = 4;
     private float horizontal;

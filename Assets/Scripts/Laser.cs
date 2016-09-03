@@ -7,7 +7,7 @@ public class Laser : MonoBehaviour
     [SerializeField]
     private float maxDistance;
     [SerializeField]
-    public float factor = 0.007f;
+    private float factor = 0.007f;
 
     private Transform transformCache;
     private bool isPlaying;

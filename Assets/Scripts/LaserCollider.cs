@@ -7,7 +7,7 @@ class LaserCollider : MonoBehaviour
         if (collider.tag == "Korey")
         {
             GameData.hitCounter++;
-            Debug.Log("Hit " + GameData.hitCounter);
+            Hud.instance.UpdateScoreLabel();
         }
     }
 }
